@@ -1,0 +1,14 @@
+.classpath
+.cache-main
+.project
+.settings
+target
+logs
+native
+.history
+
+# IntelliJ project files
+.idea
+*.iml
+gen
+
