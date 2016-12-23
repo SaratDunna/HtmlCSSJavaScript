@@ -1,0 +1,205 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+}
+
+section {
+    background-color: gray;
+    border: 1px solid black;
+    margin: 5px;
+
+    position: relative;
+}
+
+p.DishType {
+    width: 70px;
+    padding: 5px;
+    border: 1px solid black;
+    text-align: center;
+    font-weight: bold;
+    margin: 0px;
+    float: right;
+}
+
+p#ChickenDish {
+    background-color: pink;
+}
+
+p#FishDish {
+    background-color: red;
+}
+
+p#SushiDish {
+    background-color: yellow;
+}
+
+ p.DishDescription {
+    clear: right;
+     padding: 10px;
+ }
+
+@media (min-width: 992px) {
+    .col_lg_1, .col_lg_2, .col_lg_3, .col_lg_4, .col_lg_5, .col_lg_6, .col_lg_7, .col_lg_8, .col_lg_9, .col_lg_10, .col_lg_11, .col_lg_12 {
+        float: left;
+    }
+
+    .col_lg_1 {
+        width: 8.33%;
+    }
+
+    .col_lg_2 {
+        width: 16.66%;
+    }
+
+    .col_lg_3 {
+        width: 25%;
+    }
+
+    .col_lg_4 {
+        width: 33.33%;
+    }
+
+    .col_lg_5 {
+        width: 41.66%;
+    }
+
+    .col_lg_6 {
+        width: 50%;
+    }
+
+    .col_lg_7 {
+        width: 58.33%;
+    }
+
+    .col_lg_8 {
+        width: 66.66%;
+    }
+
+    .col_lg_9 {
+        width: 74.99%;
+    }
+
+    .col_lg_10 {
+        width: 83.33%;
+    }
+
+    .col_lg_11 {
+        width: 91.66%;
+    }
+
+    .col_lg_12 {
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .col_md_1, .col_md_2, .col_md_3, .col_md_4, .col_md_5, .col_md_6, .col_md_7, .col_md_8, .col_md_9, .col_md_10, .col_md_11, .col_md_12 {
+        float: left;
+    }
+
+    .col_md_1 {
+        width: 8.33%;
+    }
+
+    .col_md_2 {
+        width: 16.66%;
+    }
+
+    .col_md_3 {
+        width: 25%;
+    }
+
+    .col_md_4 {
+        width: 33.33%;
+    }
+
+    .col_md_5 {
+        width: 41.66%;
+    }
+
+    .col_md_6 {
+        width: 50%;
+    }
+
+    .col_md_7 {
+        width: 58.33%;
+    }
+
+    .col_md_8 {
+        width: 66.66%;
+    }
+
+    .col_md_9 {
+        width: 74.99%;
+    }
+
+    .col_md_10 {
+        width: 83.33%;
+    }
+
+    .col_md_11 {
+        width: 91.66%;
+    }
+
+    .col_md_12 {
+        width: 100%;
+        clear: right;
+    }
+}
+
+@media (max-width: 767px) {
+    .col_sd_1, .col_sd_2, .col_sd_3, .col_sd_4, .col_sd_5, .col_sd_6, .col_sd_7, .col_sd_8, .col_sd_9, .col_sd_10, .col_sd_11, .col_sd_12 {
+        float: left;
+    }
+
+    .col_sd_1 {
+        width: 8.33%;
+    }
+
+    .col_sd_2 {
+        width: 16.66%;
+    }
+
+    .col_sd_3 {
+        width: 25%;
+    }
+
+    .col_sd_4 {
+        width: 33.33%;
+    }
+
+    .col_sd_5 {
+        width: 41.66%;
+    }
+
+    .col_sd_6 {
+        width: 50%;
+    }
+
+    .col_sd_7 {
+        width: 58.33%;
+    }
+
+    .col_sd_8 {
+        width: 66.66%;
+    }
+
+    .col_sd_9 {
+        width: 74.99%;
+    }
+
+    .col_sd_10 {
+        width: 83.33%;
+    }
+
+    .col_sd_11 {
+        width: 91.66%;
+    }
+
+    .col_sd_12 {
+        width: 100%;
+    }
+}
